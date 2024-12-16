@@ -1,0 +1,11 @@
+sd.z=130
+n=500
+p=n
+tau=200
+k=35
+enet.lambda.seq=seq(500,0,length.out=100)
+enet.gamma.seq=seq(1,0,length.out=100)
+enet.gamma1.seq=seq(0,-0.97,length.out=100)
+lasso.lambda.seq=c(seq(4,1,length.out=100),seq(0.99,0,length.out=1000))
+ridge.lambda.seq=seq(80,0.1,length.out=100)
+renet.alpha.seq=seq(1,0,length.out=100)
